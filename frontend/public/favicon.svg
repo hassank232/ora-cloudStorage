@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dark background for visibility in browser tab -->
+  <rect width="64" height="64" fill="#000000" rx="8"/>
+
+  <!-- O Circle - Blue -->
+  <circle cx="16" cy="32" r="8" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <text x="16" y="36" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="10">O</text>
+
+  <!-- R Circle - Red -->
+  <circle cx="32" cy="32" r="8" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <text x="32" y="36" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="10">R</text>
+
+  <!-- A Circle - Green -->
+  <circle cx="48" cy="32" r="8" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <text x="48" y="36" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="10">A</text>
+</svg>

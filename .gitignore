@@ -1,0 +1,16 @@
+# Backend (Spring Boot)
+backend/target/
+backend/*.jar
+backend/*.war
+
+# Frontend (React)  
+frontend/node_modules/
+frontend/build/
+
+# Environment & Security
+.env
+*.pem
+.aws/
+.DS_Store
+*.log
+.vscode/settings.json

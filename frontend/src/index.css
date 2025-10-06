@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="email"]::-webkit-autofill,
+input[type="email"]::-webkit-autofill:hover,
+input[type="email"]::-webkit-autofill:focus,
+input[type="text"]::-webkit-autofill,
+input[type="text"]::-webkit-autofill:hover,
+input[type="text"]::-webkit-autofill:focus,
+input[type="tel"]::-webkit-autofill,
+input[type="tel"]::-webkit-autofill:hover,
+input[type="tel"]::-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px black inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"] {
+  color-scheme: dark;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151; 
+  border-radius: 9999px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1f2937; 
+}

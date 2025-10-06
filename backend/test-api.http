@@ -1,0 +1,90 @@
+### Step 1: Create a fresh user
+POST http://localhost:8080/api/users/register
+Content-Type: application/json
+
+{
+  "username": "freshuser20252",
+  "email": "freshuser20252@testdomain.com", 
+  "password": "FreshPassword122!",
+  "phoneNumber": "+1555123199"
+}
+
+### Step 2: Create a file (assuming user ID 33 from step 1)
+POST http://localhost:8080/api/files/upload
+Content-Type: application/json
+
+{
+  "filename": "project-report-sept2025.pdf", 
+  "fileSize": 4096,
+  "mimeType": "application/pdf",
+  "s3Key": "uploads/project-report-sept2025.pdf", 
+  "ownerId": 36,
+  "folderId": null
+}
+
+### Step 3: Create another file for sharing test
+POST http://localhost:8080/api/files/upload
+Content-Type: application/json
+
+{
+  "filename": "shared-document-sept2025.docx", 
+  "fileSize": 3072,
+  "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "s3Key": "uploads/shared-document-sept2025.docx", 
+  "ownerId": 36,
+  "folderId": null
+}
+
+### Step 4: Create a folder
+POST http://localhost:8080/api/folders/create
+Content-Type: application/json
+
+{
+  "name": "September 2025 Projects",
+  "ownerId": 36,
+  "parentId": null
+}
+
+### Step 5: Create a subfolder (assuming folder ID 3 from step 4)
+POST http://localhost:8080/api/folders/create
+Content-Type: application/json
+
+{
+  "name": "Reports Subfolder",
+  "ownerId": 36,
+  "parentId": 3
+}
+
+### Step 6: Get all files for user (THIS WAS FAILING BEFORE)
+GET http://localhost:8080/api/files/owner/36
+
+### Step 7: Create a share (THIS WAS FAILING BEFORE - assuming file ID 5 from step 3)
+POST http://localhost:8080/api/shares/create
+Content-Type: application/json
+
+{
+  "fileId": 5,
+  "sharedWithId": 36,
+  "permission": "READ"
+}
+
+### Step 8: Test another share with different permission (assuming file ID 4 from step 2)
+POST http://localhost:8080/api/shares/create
+Content-Type: application/json
+
+{
+  "fileId": 4,
+  "sharedWithId": 36,
+  "permission": "WRITE"
+}
+
+### BONUS TESTS - If everything works:
+
+### Get all folders for user
+GET http://localhost:8080/api/folders/owner/36
+
+### Get all shares for user  
+GET http://localhost:8080/api/shares/user/36
+
+### Get specific folder details
+GET http://localhost:8080/api/folders/3

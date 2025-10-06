@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 16" width="48" height="16">
+  <!-- O Circle - Blue, 2x larger with proper spacing -->
+  <circle cx="8" cy="8" r="6" fill="#3b82f6" stroke="#60a5fa" stroke-width="1"/>
+  <text x="8" y="11" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="8">O</text>
+
+  <!-- R Circle - Red, 2x larger with proper spacing -->
+  <circle cx="24" cy="8" r="6" fill="#ef4444" stroke="#f87171" stroke-width="1"/>
+  <text x="24" y="11" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="8">R</text>
+
+  <!-- A Circle - Green, 2x larger with proper spacing -->
+  <circle cx="40" cy="8" r="6" fill="#22c55e" stroke="#4ade80" stroke-width="1"/>
+  <text x="40" y="11" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="8">A</text>
+</svg>
