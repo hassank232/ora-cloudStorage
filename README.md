@@ -2,7 +2,7 @@
 
 Full-stack cloud storage application deployed on AWS with secure file management and user authentication.
 
-🔗 **Live Demo:** http://18.222.149.12
+🔗 **Live Demo:** http:
 
 📺 **Demo Video:** [Coming Soon]
 
@@ -76,7 +76,7 @@ The application handles user authentication, file uploads/downloads, and metadat
 
 ### Request Flow
 
-1. User accesses application at `http://18.222.149.12`
+1. User accesses application 
 2. Nginx serves React static files for the frontend
 3. API calls to `/api/*` are proxied to Spring Boot backend (port 8080)
 4. Backend authenticates requests with AWS Cognito
@@ -90,7 +90,7 @@ The application handles user authentication, file uploads/downloads, and metadat
 
 ### Live Application
 
-🔗 **Try it now:** http://18.222.149.12
+🔗 **Try it now:** http:
 
 > **Note:** The application runs Tuesday-Thursday during active deployment. If offline, please check back or watch the demo video.
 
@@ -170,7 +170,7 @@ This application implements enterprise-level security practices:
 
 **Your Name**
 
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)  
-💻 GitHub: [@yourusername](https://github.com/yourusername)
+   Email: 
+   LinkedIn:   
+   Portfolio: 
+   GitHub: 
