@@ -4,6 +4,15 @@ Full-stack cloud storage application deployed on AWS with secure file management
 
 🔗 **Live Demo:** http:
 > **Note:** The application runs Tuesday-Thursday during active deployment. If offline, please check back or watch the demo video.
+>
+> ## ⚠️ Important Note for Re-Visitors
+
+This application is deployed on **AWS Free Tier**, which means the IP address may change when the instance is restarted. If you encounter connection issues, your browser may be loading a cached version with the old IP address.
+
+**To resolve this, please hard refresh your browser:**
+- **Windows/Linux:** `Ctrl + Shift + R`
+- **Mac:** `Cmd + Shift + R`
+- **Or:** Open the site in a new **Incognito/Private window**
 
 
 📺 **Watch Full Demo Video:** 
