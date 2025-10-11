@@ -3,8 +3,10 @@
 Full-stack cloud storage application deployed on AWS with secure file management and user authentication.
 
 🔗 **Live Demo:** http:
+> **Note:** The application runs Tuesday-Thursday during active deployment. If offline, please check back or watch the demo video.
 
-📺 **Demo Video:** 
+
+📺 **Watch Full Demo Video:** 
 
 
 <a href="https://www.youtube.com/watch?v=iTkXSjppNQA" target="_blank">
@@ -12,7 +14,14 @@ Full-stack cloud storage application deployed on AWS with secure file management
 </a>
 
 
-⏰ **Availability:** Tuesday-Thursday during active deployment period
+### Video Walkthrough
+
+The video demonstrates:
+- User signup and authentication
+- File upload to S3
+- File management (download, rename, delete)
+- File preview functionality
+- AWS infrastructure overview
 
 ---
 
@@ -92,41 +101,6 @@ The application handles user authentication, file uploads/downloads, and metadat
 
 ---
 
-## Demo
-
-### Live Application
-
-🔗 **Try it now:** http:
-
-> **Note:** The application runs Tuesday-Thursday during active deployment. If offline, please check back or watch the demo video.
-
-### Video Walkthrough
-
-📺 **[Watch Full Demo](YOUR_YOUTUBE_LINK_HERE)**
-
-The video demonstrates:
-- User signup and authentication
-- File upload to S3
-- File management (download, rename, delete)
-- File preview functionality
-- AWS infrastructure overview
-
-### Screenshots
-
-**Login Page**
-
-![Login Screenshot](./screenshots/login.png)
-
-**Dashboard with Files**
-
-![Dashboard Screenshot](./screenshots/dashboard.png)
-
-**File Upload**
-
-![Upload Screenshot](./screenshots/upload.png)
-
----
-
 ## Security Highlights
 
 This application implements enterprise-level security practices:
@@ -174,9 +148,8 @@ This application implements enterprise-level security practices:
 
 ## Contact
 
-**Your Name**
+**Hassan Khalid**
 
-   Email: 
-   LinkedIn:   
-   Portfolio: 
-   GitHub: 
+- Email: hassank2413@gmail.com
+- LinkedIn: [linkedin.com/in/hassankhalid24](https://www.linkedin.com/in/hassankhalid24)
+- Portfolio: [hk24.netlify.app](https://hk24.netlify.app/)
