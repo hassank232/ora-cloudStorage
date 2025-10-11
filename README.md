@@ -5,7 +5,9 @@ Full-stack cloud storage application deployed on AWS with secure file management
 🔗 **Live Demo:** http:
 
 📺 **Demo Video:** 
-[![Demo Video](https://img.youtube.com/vi/iTkXSjppNQA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iTkXSjppNQA)
+<a href="https://www.youtube.com/watch?v=iTkXSjppNQA" target="_blank">
+  <img src="https://img.youtube.com/vi/iTkXSjppNQA/maxresdefault.jpg" alt="Demo Video" width="400">
+</a>
 
 ⏰ **Availability:** Tuesday-Thursday during active deployment period
 
